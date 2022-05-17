@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Container from '@mui/material/Container';
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
+    <Container fixed maxWidth="1500px" justifyContent="center">
     <App />
+    </Container>
   </React.StrictMode>
 );
 
